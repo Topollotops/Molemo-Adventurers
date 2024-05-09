@@ -1,0 +1,73 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Your Portfolio Title</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+<button onclick="window.location.href='home.html'">Go to Home</button>
+<style>
+       body
+           {
+            margin:0;
+            padding:0;
+            background-image: url("k.jpg");
+            background-size:cover;
+            bacground-position:center;
+            background-attachment:fixed;
+        
+           }
+</style>
+
+
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="Servives.html">Services</a>
+        <a href="Portfolio.html">Portfolio</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+
+    <section id="contact">
+     <h2>Contact Us</h2>
+     <p>If you have any questions, feedback, or inquiries, please don't hesitate to get in touch with us. We are here to help!</p>
+     <p>You can reach us by email at <a href="mailto:info@molemoadventures.co.ls">info@molemoadventures.co.ls</a> or by phone at<a href="cell:(+266)51610293">(+266)51610293</a>.</p>
+     <p>Follow us on social media for the latest updates, travel tips, and exclusive offers:</p>
+     <ul>
+        <li><img src="facebook.png" alt><a href="https://www.facebook.com/molemoadventurers" target=""blank">Facebook</a></li>       
+        <li><img src="twitter.png" alt><a href="https://www.twitter.com/molemoadventurers" target="blank">Twitter</a></li>
+        <li><img src="linkedIn.png" alt"linkedIn" width="18" height="32"><a href="https://www.linkedIn.com/molemoadventurers" target="blank">LinkedIn</a></li>
+     </ul>
+    </section>
+<form action="/submit_form" method="POST">
+   <label for="name">Name:</label><br>
+   <input type="text" id="name" name="name" required<br>
+   <input for="email">Email:</label><br>
+   <input type="email" id="email" name="name" required><br>
+   <label for="message">Message:</label><br>
+   <textarea id="message" name="message" row="4" cols="50" required></textarea><br>
+   <input type="submit" value="Submit">
+
+</select><br>
+<label for="how_hear">How Did You Hear About Our Adventures:</label><br>
+ <input type="text" id="how_hear" name="how_hear"><br>
+<input type="submit" value="Embark On Your Adventure">
+
+</select><br>
+<label for="appointment">Select Date and Time For Depature:</label><br>
+ <input type="datetime-local" id="appointment name="appointment"><br>
+<label for="location">Select Your Starting Point:</label><br>
+<select id="location" name="Maseru, Hillsview">
+ <option value="headquarters">Maseru</option>
+ <option value="branch1">South Arica, Bloemfontein</option>
+ <option value="branch2>South Africa, Durban</option>
+</form>
+</body>
+</html>
